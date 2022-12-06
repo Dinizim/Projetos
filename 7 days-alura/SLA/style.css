@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500;700&display=swap');
+:root{
+    --font: 'Inter' , Arial, Helvética, Verdana , sans-serif;
+    --text-color: #667085;
+    --main-color: #8E2424;
+    --title-color: #101828;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--font);
+}
+body{
+  width: 100%;
+  height: 100vh;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1em 2em;
+}
+.logo , .logo > img{
+    width: 27px;
+    display: flex;
+    align-items: center;
+    color: var(--title-color);
+    gap: 8px;
+}
+.navegation , .navegation > a{
+    text-decoration: none;
+    display: flex;
+    gap: 32px;
+    color: var(--text-color);
+}
+.navegation > a:hover{
+    text-decoration: underline;
+}
+.button{
+}
+button{
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: var(--main-color);
+    font-weight: 400;
+}
+#bt-1{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    color: var(--text-color);
+}
+/*nav-fim*/ 
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    text-align: center;
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+section > h1{
+    font-size: 48px;
+    color: var(--title-color);
+}
+section > p {
+    margin-top : 34px;
+}
+#Sobre-Nós{
+    font-size: 16px;
+    color: #8E2424;
+    margin: 96px 20px 20px ;
+    font-weight: bold;
+}
