@@ -14,10 +14,11 @@ body{
   width: 100%;
   height: 100vh;
 }
+/*navbar-inicio*/
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 1em 2em;
 }
 .logo , .logo > img{
@@ -32,12 +33,15 @@ body{
     display: flex;
     gap: 32px;
     color: var(--text-color);
+    padding: 10px;
 }
 .navegation > a:hover{
-    text-decoration: underline;
+    background-color: rgb(155, 152, 152);
+    border-radius: 5px;
+    transition: 0.5s;
+    color:#ffffff;
 }
-.button{
-}
+
 button{
     cursor: pointer;
     border-radius: 10px;
@@ -54,8 +58,8 @@ button{
     color: var(--text-color);
 }
 /*nav-fim*/ 
-
-section{
+/*cabecalho-inicio*/
+#cabecalho{
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -65,18 +69,92 @@ section{
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-    
+    margin: 0 10vh 10vh 10vh;
+    padding: 98px 0;
 }
-section > h1{
+#cabecalho > h1{
     font-size: 48px;
     color: var(--title-color);
 }
-section > p {
+#cabecalho > p {
     margin-top : 34px;
 }
-#Sobre-Nós{
+span{
     font-size: 16px;
     color: #8E2424;
     margin: 96px 20px 20px ;
     font-weight: bold;
+}
+/*cabecalho-fim*/
+/*metricas-inicio*/
+main{
+    padding: 10px;
+}
+.métricas{
+    display: flex;
+    justify-content:center;
+    gap:10px;
+    padding: 0px 0px 96px;
+}
+.métricas > div,.métricas > div > p{ 
+    font-size: 14px;
+    width: 280px;
+    line-height: 30px;
+    height: 168px;
+    color: var(--text-color);
+}
+.métricas > div > h1{
+    color: var(--main-color);
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+h4 , h2{
+    color: #101828;
+}
+/*fim-metricas*/
+/*inicios-vagas*/
+.vagas-open{
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.vagas-open > p{
+    padding: 0 0 48px;
+}
+section > img{
+margin: auto;
+box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.493);
+width: 1216px;
+height: 400px;
+}
+.vagas{
+    display: flex;
+    flex-direction: column;
+    padding: 10vh;
+}
+.vagas > span ,.vagas >  div{
+    margin-left: 40vh;
+    color: #101828;
+
+}
+.vagas > span{
+    font-size: 1.5em;
+}
+.vaga {
+    color: #101828;
+    margin-bottom: 2rem;
+}
+.informaçoes{
+    margin-top: 2rem;
+    
+    padding: 24px 24px 28px;
+}
+.vagas > div {
+    margin-top: 2rem;
+    
+}
+.informaçoes > span{
+    color: var(--text-color);
 }
