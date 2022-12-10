@@ -158,3 +158,45 @@ height: 400px;
 .informaçoes > span{
     color: var(--text-color);
 }
+.depoimento{
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    color: #667085;
+}
+.depoimento > div{
+    padding: 10px;
+    text-align: center;
+    color: #667085;
+}
+
+.depoimento-Title > h2{
+    display: block;
+    padding: 40px;
+}
+.depoimento-img > p ,depoimento-img > img {
+    padding: 10px;
+}
+.rodapé{
+    text-align: center;
+    color: var(--text-color);
+    padding: 10px;
+}
+.form > p,.form > h2{
+    display: block;
+    padding: 10px;
+}
+#email{
+    border: 1px solid #D0D5DD;
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+}
+.input{
+    margin: 40px 0 32px;
+}
+#copyright{
+    font-size: 12px;
+    font-weight: 400;
+    color: #98A2B3;
+}
