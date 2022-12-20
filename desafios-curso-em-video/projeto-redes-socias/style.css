@@ -50,10 +50,11 @@ iframe#tela-home {
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.753);
 }
-
+/* animação - botões - redes sociais*/
 .redes-sociais > a > img:hover{
     border: 2px solid rgba(255, 255, 255, 0.527);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.747);
     transform: translate(-5px , -5px);
     transition: .1s;
 }
+/* botões - redes sociais*/
