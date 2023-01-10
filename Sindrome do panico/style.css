@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@300;400;500;700&display=swap');
+
+*{
+    font-family: "Sofia Sans Extra Condensed ", Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+
+header{
+    padding-top: 10px;
+    position: relative;
+    background-color: black;
+    color: white;
+    min-height: 140px;
+    max-height: 160px;
+}
+h1{
+    font-size: 2em;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+
+h1::after{
+    content: "😱";
+}
+/* FIm do cabecalho */
+/* começo do conteudo */
+.escrito{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    min-height: 400px;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+.parallax{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black url(imagens/translucent-hands.png) center center no-repeat fixed;
+    box-shadow: inset 3px 3px 4px rgba(0, 0, 0, 0.514);
+    background-size: cover;
+    min-height: 500px;
+}
+.parallax > div{
+    font-size: 4em;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.63);
+    border-radius: 10px;
+}
+
